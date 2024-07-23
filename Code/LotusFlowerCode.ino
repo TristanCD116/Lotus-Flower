@@ -13,7 +13,7 @@
 #define MIX2 0xFFA857     // 8
 #define MIX3 0xFF906F     // 9
 
-const int RGB_PINS[] = { 9, 5, 6 };  // PWM Pins: Red, Green, Blue
+const int RGB_PINS[] = { 5, 6, 9 };  // PWM Pins: Red, Green, Blue
 const int RECPIN = 10;               // IR receiver pin
 const int MAX_ANALOG = 250;
 
